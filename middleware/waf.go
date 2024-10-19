@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"WAF/logger"
+	"github.com/agill7227/Web-Application-Firewall/logger"
 
 	"github.com/gofiber/fiber/v2"
 )
