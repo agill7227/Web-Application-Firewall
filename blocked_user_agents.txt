@@ -1,0 +1,40 @@
+sqlmap
+Nmap
+Nikto
+ZAP
+python-requests
+Go-http-client
+curl
+HTTrack
+libwww-perl
+wget
+Brutus
+Morfeus
+ZmEu
+masscan
+Paros
+fimap
+OpenVAS
+havij
+DirBuster
+W3C_Validator
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) (Fake Googlebot)
+sqlninja
+arachni
+Acunetix
+MJ12bot
+Nessus
+masscanner
+Uniscan
+binlar
+Xenu
+WebReaper
+SearchBot
+Feedfetcher-Google
+MJ12bot/v1.4.5 (http://majestic12.co.uk/bot.php?+)
+wget/1.20.3
+lwp-request
+Baiduspider
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) (Fake Bingbot)
+Datanyze
+MauiBot

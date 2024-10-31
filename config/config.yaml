@@ -1,0 +1,4 @@
+detection:
+  blocked_user_agents_file: "blocked_user_agents.txt"
+  blocked_paths_file: "blocked_paths.txt"
+  xss_payloads_file: "cross_patterns.txt"

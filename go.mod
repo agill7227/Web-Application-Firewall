@@ -1,4 +1,4 @@
-module waf
+module github.com/agill7227/Web-Application-Firewall
 
 go 1.23.1
 
