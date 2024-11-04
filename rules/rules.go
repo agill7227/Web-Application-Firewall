@@ -67,6 +67,10 @@ func New_user_agent_rule(filepath string) UserAgentRule {
 	scanner := bufio.NewScanner(file)
 
 	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+		if line == "" || strings.HasPrefix(line, "#") {
+			continue
+		}
 		blockedAgents = append(blockedAgents, scanner.Text())
 	}
 
@@ -111,6 +115,7 @@ func Check_request(c *fiber.Ctx) bool {
 
 	for _, rule := range rules {
 		if rule.Check_request(c) {
+			log.Printf("Request blocked by rule: %T", rule)
 			return true
 		}
 	}

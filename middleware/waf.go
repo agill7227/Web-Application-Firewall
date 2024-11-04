@@ -9,6 +9,10 @@ import (
 
 func WAFMiddleware(c *fiber.Ctx) error {
 
+	if err := RateLimting(c); err != nil {
+		return err
+	}
+
 	blocked := rules.Check_request(c)
 
 	logger.LogRequest(c, blocked)
